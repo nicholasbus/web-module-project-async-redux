@@ -4,7 +4,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
 import thunk from 'redux-thunk'
 import { reducer } from './store'
-
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import './index.css';
 import App from './App';
 

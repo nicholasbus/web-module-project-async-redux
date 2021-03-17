@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.house {
+  margin: 2rem;
+  background-color: #3c3c3c;
+  padding: 1rem;
+  color: #fff;
+  box-shadow: 4px 5px 3px black;
+}
+
+h1,
+h2 {
+  text-align: center;
+}
+
+#errors {
+  color: red;
+}
